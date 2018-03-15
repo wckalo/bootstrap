@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main {
+    margin-top: 60px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    background-color: black;
+}
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+.blocky {
+    background-color: yellow;
+    color: yellow;
+    padding: 120px;
+}
+
+.blockb {
+    background-color: blue;
+    color: blue;
+    padding: 120px;
+}
+
+.blockg {
+    background-color: green;
+    color: green;
+    padding: 120px;
+}
+
+.blockr {
+    background-color: red;
+    color: red;
+    padding: 120px;
+}
+
+.blockk {
+    background-color: black;
+    color: black;
+    padding: 120px;
+}
